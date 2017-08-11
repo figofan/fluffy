@@ -58,36 +58,6 @@ namespace Puppy
 
 		public static void BFS()
 		{
-			var root = new Node()
-			{
-				Value = 0,
-				Left = new Node()
-				{
-					Value = 1,
-					Left = new Node()
-					{
-						Value = 3,
-						Left = new Node()
-						{
-							Value = 4
-						}
-					}
-				},
-				Right = new Node()
-				{
-					Value = 2,
-					Left = new Node()
-					{
-						Value = 5,
-						Right = new Node()
-						{
-							Value = 6
-						}
-
-					}
-				}
-			};
-
 			var queue = new Queue<Node>();
 			queue.Enqueue(root);
 			while (queue.Count > 0)
@@ -107,42 +77,6 @@ namespace Puppy
 
 		public static void DFS()
 		{
-			var root = new Node()
-			{
-				Value = 0,
-				Left = new Node()
-				{
-					Value = 1,
-					Left = new Node()
-					{
-						Value = 3,
-						Left = new Node()
-						{
-							Value = 4
-						}
-					}
-				},
-				Right = new Node()
-				{
-					Value = 2,
-					Left = new Node()
-					{
-						Value = 5,
-						Right = new Node()
-						{
-							Value = 6
-						}
-
-					}
-				}
-			};
-
-			//var stack = new Stack<Node>();
-			//stack.Push(root);
-			//while (stack.Count > 0)
-			//{
-				
-			//}
 			DFSInternal(root);
 		}
 
@@ -162,57 +96,23 @@ namespace Puppy
 
 		public static IEnumerable<int> InOrder()
 		{
-			var root1 = new Node()
-			{
-				Value = 0,
-				Left = new Node()
-				{
-					Value = 1,
-					Left = new Node()
-					{
-						Value = 3,
-						Left = new Node()
-						{
-							Value = 4
-						}
-					}
-				},
-				Right = new Node()
-				{
-					Value = 2,
-					Left = new Node()
-					{
-						Value = 5,
-						Right = new Node()
-						{
-							Value = 6
-						}
-
-					}
-				}
-			};
-			var root = root1;
+			var node = root;
 			var stack = new Stack<Node>();
-			while (stack.Count != 0 || root != null)
+			while (stack.Count != 0 || node != null)
 			{
-				while (root != null)
+				while (node != null)
 				{
-					stack.Push(root);
-					root = root.Left;
+					stack.Push(node);
+					node = node.Left;
 				}
-				root = stack.Pop();
-				yield return root.Value;
-				root = root.Right;
-
-				if (stack.Count == 0 && root == null)
-					break;
+				node = stack.Pop();
+				yield return node.Value;
+				node = node.Right;
 			}
 		}
 
 		public static IEnumerable<int> DFSByStack()
 		{
-			
-
 			var stack = new Stack<Node>();
 			stack.Push(root);
 			while (stack.Count > 0)
@@ -285,6 +185,30 @@ namespace Puppy
 		public static int Sum(List<int> stack)
 		{
 			return stack.Aggregate(0, (current, s) => current * 10 + s);
+		}
+
+		public static IEnumerable<int> TraverseTreeInPostOrder()
+		{
+			Node preNode = null;
+			var statck = new Stack<Node>();
+			statck.Push(root);
+			while (statck.Count > 0)
+			{
+				var node = statck.Peek();
+				if (node.Left == null && node.Right == null ||
+				    preNode != null && (preNode == node.Left || preNode == node.Right))
+				{
+					yield return node.Value;
+					preNode = statck.Pop();
+				}
+				else
+				{
+					if (node.Right != null)
+						statck.Push(node.Right);
+					if (node.Left != null)
+						statck.Push(node.Left);
+				}
+			}
 		}
 
 		public class  Node

@@ -352,7 +352,8 @@ namespace Puppy
 			//FunWithTree.DFS();
 			//Console.WriteLine(string.Join(",", FunWithTree.DFSByStack()));
 			//Console.WriteLine(GetMaxAreaOfHistogram(new int[] {2, 1, 5, 6, 2, 3}));
-			FunWithTree.SumOfTree();
+			//FunWithTree.SumOfTree();
+			Console.WriteLine(string.Join(",", FunWithTree.TraverseTreeInPostOrder()));
 		}
 
 	}
