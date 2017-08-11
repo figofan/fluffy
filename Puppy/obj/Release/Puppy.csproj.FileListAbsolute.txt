@@ -1,5 +1,0 @@
-D:\workspace\Fluffy\Puppy\bin\Release\Puppy.pdb
-D:\workspace\Fluffy\Puppy\obj\Release\Puppy.pdb
-D:\workspace\Fluffy\Puppy\bin\Release\Puppy.dll
-D:\workspace\Fluffy\Puppy\obj\Release\Puppy.csprojResolveAssemblyReference.cache
-D:\workspace\Fluffy\Puppy\obj\Release\Puppy.dll

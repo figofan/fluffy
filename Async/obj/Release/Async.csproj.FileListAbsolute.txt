@@ -1,4 +1,0 @@
-D:\workspace\Fluffy\Async\bin\Release\Async.exe
-D:\workspace\Fluffy\Async\bin\Release\Async.pdb
-D:\workspace\Fluffy\Async\obj\Release\Async.exe
-D:\workspace\Fluffy\Async\obj\Release\Async.pdb

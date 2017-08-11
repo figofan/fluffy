@@ -1,6 +1,0 @@
-D:\workspace\Fluffy\DisposablePractice\bin\Release\DisposablePractice.exe.config
-D:\workspace\Fluffy\DisposablePractice\bin\Release\DisposablePractice.exe
-D:\workspace\Fluffy\DisposablePractice\bin\Release\DisposablePractice.pdb
-D:\workspace\Fluffy\DisposablePractice\obj\Release\DisposablePractice.exe
-D:\workspace\Fluffy\DisposablePractice\obj\Release\DisposablePractice.pdb
-D:\workspace\Fluffy\DisposablePractice\obj\Release\DisposablePractice.csprojResolveAssemblyReference.cache

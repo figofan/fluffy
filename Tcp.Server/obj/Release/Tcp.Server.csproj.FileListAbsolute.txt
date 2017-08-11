@@ -1,5 +1,0 @@
-D:\workspace\Fluffy\Tcp.Server\bin\Release\Tcp.Server.exe.config
-D:\workspace\Fluffy\Tcp.Server\bin\Release\Tcp.Server.exe
-D:\workspace\Fluffy\Tcp.Server\bin\Release\Tcp.Server.pdb
-D:\workspace\Fluffy\Tcp.Server\obj\Release\Tcp.Server.exe
-D:\workspace\Fluffy\Tcp.Server\obj\Release\Tcp.Server.pdb

@@ -1,6 +1,0 @@
-D:\workspace\Fluffy\Tcp.Client\bin\Release\Tcp.Client.exe.config
-D:\workspace\Fluffy\Tcp.Client\bin\Release\Tcp.Client.exe
-D:\workspace\Fluffy\Tcp.Client\bin\Release\Tcp.Client.pdb
-D:\workspace\Fluffy\Tcp.Client\obj\Release\Tcp.Client.csprojResolveAssemblyReference.cache
-D:\workspace\Fluffy\Tcp.Client\obj\Release\Tcp.Client.exe
-D:\workspace\Fluffy\Tcp.Client\obj\Release\Tcp.Client.pdb

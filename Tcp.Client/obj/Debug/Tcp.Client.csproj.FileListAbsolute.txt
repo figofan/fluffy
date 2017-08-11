@@ -1,5 +1,0 @@
-D:\workspace\Fluffy\Tcp.Client\bin\Debug\Tcp.Client.exe.config
-D:\workspace\Fluffy\Tcp.Client\bin\Debug\Tcp.Client.exe
-D:\workspace\Fluffy\Tcp.Client\bin\Debug\Tcp.Client.pdb
-D:\workspace\Fluffy\Tcp.Client\obj\Debug\Tcp.Client.exe
-D:\workspace\Fluffy\Tcp.Client\obj\Debug\Tcp.Client.pdb

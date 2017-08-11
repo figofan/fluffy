@@ -1,6 +1,0 @@
-D:\workspace\Fluffy\CLR\bin\Release\CLR.exe.config
-D:\workspace\Fluffy\CLR\bin\Release\CLR.exe
-D:\workspace\Fluffy\CLR\bin\Release\CLR.pdb
-D:\workspace\Fluffy\CLR\obj\Release\CLR.csprojResolveAssemblyReference.cache
-D:\workspace\Fluffy\CLR\obj\Release\CLR.exe
-D:\workspace\Fluffy\CLR\obj\Release\CLR.pdb
