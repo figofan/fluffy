@@ -211,6 +211,70 @@ namespace Puppy
 			}
 		}
 
+		public static Node List2BinaryTree()
+		{
+			var list = new Node()
+			{
+				Value = 1,
+				Left = new Node()
+				{
+					Value = 2,
+					Left = new Node()
+					{
+						Value = 3,
+						Left = new Node()
+						{
+							Value = 4,
+							Left = new Node()
+							{
+								Value = 5,
+								Left = new Node()
+								{
+									Value = 6,
+									Left = new Node()
+									{
+										Value = 7
+									}
+								}
+							}
+						}
+					}
+				}
+			};
+			var tree = ToTree(list, null);
+
+			return tree;
+		}
+
+		private static Node ToTree(Node start, Node end)
+		{
+			if (start == end)
+			{
+				return null;
+			}
+
+			var fast = start;
+			var slow = start;
+
+			// slow would be root node
+			while (fast != end && fast.Left != end)
+			{
+				slow = slow.Left;
+				fast = fast.Left.Left;
+			}
+
+			var node = new Node
+			{
+				Value = slow.Value,
+				// left tree is start to slow[root]
+				Left = ToTree(start, slow),
+				// right tree is slow[root].next to end
+				Right = ToTree(slow.Left, end)
+			};
+
+			return node;
+		}
+
 		public class  Node
 		{
 			public int Value { get; set; }
