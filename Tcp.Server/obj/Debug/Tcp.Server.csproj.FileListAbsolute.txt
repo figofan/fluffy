@@ -1,0 +1,5 @@
+D:\workspace\Fluffy\Tcp.Server\bin\Debug\Tcp.Server.exe.config
+D:\workspace\Fluffy\Tcp.Server\bin\Debug\Tcp.Server.exe
+D:\workspace\Fluffy\Tcp.Server\bin\Debug\Tcp.Server.pdb
+D:\workspace\Fluffy\Tcp.Server\obj\Debug\Tcp.Server.exe
+D:\workspace\Fluffy\Tcp.Server\obj\Debug\Tcp.Server.pdb

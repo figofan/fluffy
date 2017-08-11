@@ -1,0 +1,6 @@
+D:\workspace\Fluffy\DisposablePractice\bin\Debug\DisposablePractice.exe.config
+D:\workspace\Fluffy\DisposablePractice\bin\Debug\DisposablePractice.exe
+D:\workspace\Fluffy\DisposablePractice\bin\Debug\DisposablePractice.pdb
+D:\workspace\Fluffy\DisposablePractice\obj\Debug\DisposablePractice.csprojResolveAssemblyReference.cache
+D:\workspace\Fluffy\DisposablePractice\obj\Debug\DisposablePractice.exe
+D:\workspace\Fluffy\DisposablePractice\obj\Debug\DisposablePractice.pdb

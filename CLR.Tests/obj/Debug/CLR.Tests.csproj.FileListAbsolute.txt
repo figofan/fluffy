@@ -1,0 +1,7 @@
+D:\workspace\Fluffy\CLR.Tests\bin\Debug\CLR.Tests.dll
+D:\workspace\Fluffy\CLR.Tests\bin\Debug\CLR.Tests.pdb
+D:\workspace\Fluffy\CLR.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\workspace\Fluffy\CLR.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\workspace\Fluffy\CLR.Tests\obj\Debug\CLR.Tests.csprojResolveAssemblyReference.cache
+D:\workspace\Fluffy\CLR.Tests\obj\Debug\CLR.Tests.dll
+D:\workspace\Fluffy\CLR.Tests\obj\Debug\CLR.Tests.pdb

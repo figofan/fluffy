@@ -1,0 +1,5 @@
+D:\workspace\Fluffy\Async\bin\Debug\Async.exe
+D:\workspace\Fluffy\Async\bin\Debug\Async.pdb
+D:\workspace\Fluffy\Async\obj\Debug\Async.exe
+D:\workspace\Fluffy\Async\obj\Debug\Async.pdb
+D:\workspace\Fluffy\Async\obj\Debug\Async.csprojResolveAssemblyReference.cache

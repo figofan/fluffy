@@ -1,0 +1,11 @@
+D:\workspace\Fluffy\DesignPattern\bin\Debug\DesignPattern.exe.config
+D:\workspace\Fluffy\DesignPattern\bin\Debug\DesignPattern.exe
+D:\workspace\Fluffy\DesignPattern\bin\Debug\DesignPattern.pdb
+D:\workspace\Fluffy\DesignPattern\obj\Debug\DesignPattern.exe
+D:\workspace\Fluffy\DesignPattern\obj\Debug\DesignPattern.pdb
+D:\workspace\Fluffy\DesignPattern\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\workspace\Fluffy\DesignPattern\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\workspace\Fluffy\DesignPattern\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\Fluffy\DesignPattern\bin\Debug\Newtonsoft.Json.xml
+D:\workspace\Fluffy\DesignPattern\bin\Debug\Arris.Common.Clients.dll
+D:\workspace\Fluffy\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache

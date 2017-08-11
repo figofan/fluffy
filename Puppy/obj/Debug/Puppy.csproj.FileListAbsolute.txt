@@ -1,0 +1,5 @@
+D:\workspace\Fluffy\Puppy\bin\Debug\Puppy.pdb
+D:\workspace\Fluffy\Puppy\obj\Debug\Puppy.pdb
+D:\workspace\Fluffy\Puppy\obj\Debug\Puppy.csprojResolveAssemblyReference.cache
+D:\workspace\Fluffy\Puppy\bin\Debug\Puppy.exe
+D:\workspace\Fluffy\Puppy\obj\Debug\Puppy.exe

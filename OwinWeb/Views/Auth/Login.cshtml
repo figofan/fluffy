@@ -1,0 +1,26 @@
+﻿
+@inherits System.Web.Mvc.WebViewPage<OwinWeb.Models.LoginModel>
+@using System.Web.Mvc.Html
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+<div>
+    @using (var from = Html.BeginForm())
+    {
+        @Html.LabelFor(h => h.Username)
+        @Html.TextBoxFor(x => x.Username)
+        <hr/>
+        @Html.LabelFor(x => x.Password)
+        @Html.PasswordFor(x => x.Password)
+
+        <input type="submit" value="log in"/>
+    }
+</div>
+</body>
+</html>
