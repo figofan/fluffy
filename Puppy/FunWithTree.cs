@@ -8,6 +8,7 @@ namespace Puppy
 {
 	public class FunWithTree
 	{
+		#region root
 		private static readonly Node root = new Node()
 		{
 			Value = 0,
@@ -37,6 +38,9 @@ namespace Puppy
 				}
 			}
 		};
+
+		#endregion 
+
 		public static void DFS(List<List<int>> ret, List<int> combination, int level, int n, int k)
 		{
 			if (combination.Count == k)
@@ -273,6 +277,49 @@ namespace Puppy
 			};
 
 			return node;
+		}
+
+		public static Node SortedArray2BinaryTree(int[] arr, int start, int end)
+		{
+			if (start == end)
+				return null;
+			var mid = start + (end - start) / 2;
+			var node = new Node()
+			{
+				Value = arr[mid],
+				Left = SortedArray2BinaryTree(arr, start, mid),
+				Right = SortedArray2BinaryTree(arr, mid + 1, end)
+			};
+
+			return node;
+		}
+
+		public static void PathSum(Node node, List<List<int>> result, List<int> list, int sum)
+		{
+			if (node == null) return;
+
+			list.Add(node.Value);
+
+			if (node.Left == null && node.Right == null)
+			{
+				if (sum == list.Sum())
+					result.Add(new List<int>(list));
+			}
+			else
+			{
+				if (node.Left != null)
+				{
+					PathSum(node.Left, result, list, sum);
+					
+				}
+				if (node.Right != null)
+				{
+					PathSum(node.Right, result, list, sum);
+					
+				}
+			}
+
+			list.RemoveAt(list.Count - 1);
 		}
 
 		public class  Node

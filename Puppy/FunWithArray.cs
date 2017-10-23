@@ -354,7 +354,10 @@ namespace Puppy
 			//Console.WriteLine(GetMaxAreaOfHistogram(new int[] {2, 1, 5, 6, 2, 3}));
 			//FunWithTree.SumOfTree();
 			//Console.WriteLine(string.Join(",", FunWithTree.TraverseTreeInPostOrder()));
-			FunWithTree.List2BinaryTree();
+			//FunWithTree.List2BinaryTree();
+			//new FunWithDP.MineGold().StartMine();
+			//new FunWithDP.CrossBridge().Start();
+			new FunWithDP.MaxDiff().Calculate();
 		}
 
 	}
